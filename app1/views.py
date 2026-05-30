@@ -7,4 +7,4 @@ def emp_details(request):
     context={
         'data':data
     }
-    return render(request,'app1_tem/home.html',context)
+    return render(request,'app1_Tem/home.html',context)

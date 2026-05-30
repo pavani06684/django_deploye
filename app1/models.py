@@ -6,4 +6,4 @@ class employee(models.Model):
     employee_name=models.CharField(max_length=20)
     employee_id=models.IntegerField(unique=True,auto_created=True)
     employee_email=models.CharField(max_length=30)
-    employee_salay=models.FloatField()
+    employee_salary=models.FloatField()
